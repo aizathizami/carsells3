@@ -73,7 +73,7 @@ def Predict_model():
     if output<0:
         st.warning("Sorry you can not Sell this car")
     else:
-        st.success("You can Sell this car at {} Lakh".format(output))
+        st.success("You can Sell this car at {} MYR".format(output))
 
 if st.button("Predict"):
     Predict_model()
