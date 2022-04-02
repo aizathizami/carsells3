@@ -17,7 +17,7 @@ Year = int(Year)
 Year = 2021-Year
 
 # Create a Present_Price Option
-st.header("What is the Showroom Price?(In lakhs)")
+st.header("What is the Showroom Price?(In MYR)")
 Present_Price = st.selectbox(" " , ["5", "10" , "6"])
 Present_Price = int(Present_Price)
 
